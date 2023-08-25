@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(183, 202, 202);
+}
+
+.reloj-contenedor{
+    width: 305px;
+    margin-top: 50%;
+    background: linear-gradient(rgb(183, 183, 212),rgb(169, 243, 169),rgb(247, 247, 167), rgb(221, 182, 221));
+    border-radius: 15px;
+}
+.hora,.fecha{
+    text-align: center;
+    font-size: 55px;
+}
+.animar{
+    border:rgb(119, 115, 115) 2px solid;
+    border-radius: 15px;
+}
+
+@media(min-width: 550px){
+    .reloj-contenedor{
+        margin: 0 auto;
+        margin-top: 35%;
+    }
+}
